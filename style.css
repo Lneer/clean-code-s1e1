@@ -53,6 +53,7 @@
 
 .todo-task, 
 .block-header {
+  margin: 0;
   list-style:none;
 }
 
@@ -74,7 +75,7 @@
   cursor: pointer;
 }
 
-.edit-btn,
+.edit-btn:hover,
 .delete-btn:hover {
   color: #3a3A3a;
 }
@@ -139,6 +140,7 @@
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  margin: 0;
 }
 
 .todo-task__input {
