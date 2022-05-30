@@ -42,7 +42,7 @@
   flex-grow: 1;
 }
 
-.task-row {
+.add-task__input-row {
   display: flex;
 }
 
@@ -115,9 +115,6 @@
   margin: 0 0 20px;
 }
 
-#new-task {
-  width: 318px;
-}
 
 /* Task list */
 .todo-task {
